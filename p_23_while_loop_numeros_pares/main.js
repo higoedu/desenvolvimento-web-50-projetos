@@ -10,7 +10,9 @@ function mostrarNumerosPares() {
     let mostrar = 0;
 
     while (i <= fim) {
-        mostrar = mostrar + 1 + ' ';
-        mostrarDiv.innerHTML = mostrar;
+        if(i % 2 == 0){
+            mostrar = mostrar + 1 + ' ';
+            mostrarDiv.innerHTML = mostrar;
+        }
     }
 }
