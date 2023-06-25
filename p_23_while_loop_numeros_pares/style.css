@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 30px;
+}
+
+input, button {
+    margin-top: 30px;
+}
+
+#saida {
+    font-size: 24px;
+    color: blue;
+    font-weight: bold;
+    margin-top: 20px;
+}
