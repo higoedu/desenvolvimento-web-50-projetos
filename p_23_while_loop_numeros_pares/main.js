@@ -14,5 +14,6 @@ function mostrarNumerosPares() {
             mostrar = mostrar + 1 + ' ';
             mostrarDiv.innerHTML = mostrar;
         }
+        i++;
     }
 }
